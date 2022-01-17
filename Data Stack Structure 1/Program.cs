@@ -16,6 +16,7 @@ namespace Data_Stack_Structure_1
             //Pop
 
             //Push
+            Numbers.Push(3);
         }
     }
 }
