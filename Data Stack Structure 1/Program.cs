@@ -12,20 +12,21 @@ namespace Data_Stack_Structure_1
 
             //Push - Inserts an object at the top of the stack
 
+            Console.WriteLine("Pushing numbers 5 & 9 to the stack");
             Numbers.Push(5); //Adds the integer '5' to the top of the Stack 'Numbers'
             Numbers.Push(9); //Adds the integer '9' to the top of the Stack 'Numbers'
 
             Console.WriteLine(); //Empty WritLine command to make the console look neater 
 
-            //Peek - Returns the object at the top of the 
-            Console.WriteLine("Peek:");
-            Console.WriteLine(Numbers.Peek());
+            //Pop - Returns and removes the object at the top of the 
+            Console.WriteLine("Using the Peek() method");
+            Console.WriteLine(Numbers.Pop());
 
             Console.WriteLine(); //Empty WritLine command to make the console look neater 
 
-            //Pop - Returns and removes the object at the top of the stack
-            Console.WriteLine("Pop:");
-            Console.WriteLine(Numbers.Pop());
+            //Peek - Returns the object at the top of the stack without removing it
+            Console.WriteLine("Using the Pop() method");
+            Console.WriteLine(Numbers.Peek());
         }
     }
 }
